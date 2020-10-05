@@ -15,7 +15,11 @@ git remote add "extended-fire-godot" git@github.com:godot-extended-libraries/god
 git fetch "extended-fire-godot"
 git remote rm fire
 git remote add fire git@github.com:fire/godot.git
-git fetch fire
+git fetch RevoluPowered
+git remote rm RevoluPowered
+git remote add RevoluPowered https://github.com/RevoluPowered/godot.git
+git fetch RevoluPowered
+
 
 echo -e "Work"
 git checkout master --force
