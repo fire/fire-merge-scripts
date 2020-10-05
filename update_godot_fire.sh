@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-EXPORT="extended-godot-fire"
+EXPORT="extended-fire-godot"
 
 echo -e "Checkout remotes"
 git remote rm SaracenOne
