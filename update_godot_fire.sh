@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-EXPORT="extended-fire-godot"
-
 echo -e "Checkout remotes"
 git remote rm SaracenOne
 git remote add SaracenOne https://github.com/SaracenOne/godot
@@ -15,9 +13,9 @@ git remote rm godotengine
 git remote add godotengine https://github.com/godotengine/godot
 git fetch godotengine
 
-git remote rm $EXPORT
-git remote add $EXPORT git@github.com:godot-extended-libraries/godot-fire.git
-git fetch $EXPORT
+git remote rm "extended-fire-godot"
+git remote add "extended-fire-godot" git@github.com:godot-extended-libraries/godot-fire.git
+git fetch "extended-fire-godot"
 
 git remote rm fire
 git remote add fire git@github.com:fire/godot.git
@@ -25,8 +23,8 @@ git fetch fire
 
 echo -e "Work"
 git checkout master --force
-git branch -D $EXPORT
+git branch -D "extended-fire-godot"
 git as -av
-git checkout $EXPORT -f
+git checkout "extended-fire-godot" -f
 #git push -u -f $EXPORT extended-fire
 git checkout master -f
