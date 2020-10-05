@@ -26,5 +26,5 @@ git checkout master --force
 git branch -D "extended-fire"
 git as -av
 git checkout "extended-fire" -f
-#git push -u -f $EXPORT extended-fire
+git push -u -f "extended-fire-godot" extended-fire
 git checkout master -f
