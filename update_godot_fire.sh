@@ -23,8 +23,8 @@ git fetch fire
 
 echo -e "Work"
 git checkout master --force
-git branch -D "extended-fire-godot"
+git branch -D "extended-fire"
 git as -av
-git checkout "extended-fire-godot" -f
+git checkout "extended-fire" -f
 #git push -u -f $EXPORT extended-fire
 git checkout master -f
