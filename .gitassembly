@@ -8,4 +8,5 @@ merge extended-fire remotes/extended-fire-godot/feature/3.2/color-management
 merge extended-fire remotes/extended-fire-godot/feature/3.2/color-correction
 merge extended-fire remotes/extended-fire-godot/feature/3.2/audio-effect
 merge extended-fire remotes/extended-fire-godot/feature/3.2/skeleton-mod
+merge extended-fire remotes/extended-fire-godot/feature/3.2/mesh-unwrap
 merge extended-fire remotes/extended-fire-godot/feature/3.2/fbx
