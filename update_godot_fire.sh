@@ -26,7 +26,7 @@ git fetch RevoluPowered
 echo -e "Work"
 git checkout master --force
 git branch -D "extended-fire"
-git as -av
+./git-assembler -av
 git checkout "extended-fire" -f
 git push -u -f "extended-fire-godot" extended-fire
 git checkout master -f
