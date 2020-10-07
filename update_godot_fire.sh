@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+git stash
+
 echo -e "Checkout remotes"
 git remote rm SaracenOne
 git remote add SaracenOne https://github.com/SaracenOne/godot
