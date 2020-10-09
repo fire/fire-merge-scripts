@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e
+
 git stash
 
 echo -e "Checkout remotes"
