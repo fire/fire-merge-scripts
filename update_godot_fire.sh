@@ -16,10 +16,9 @@ git remote add godotengine https://github.com/godotengine/godot
 git fetch godotengine
 git remote rm "extended-fire-godot" || true
 git remote add "extended-fire-godot" git@github.com:godot-extended-libraries/godot-fire.git
-git fetch "extended-fire-godot"
-git remote rm fire || true
-git remote add fire git@github.com:fire/godot.git
-git fetch RevoluPowered
+git remote rm extended-fire-godot || true
+git remote add extended-fire-godot git@github.com:fire/godot.git
+git fetch extended-fire-godot
 git remote rm RevoluPowered || true
 git remote add RevoluPowered https://github.com/RevoluPowered/godot.git
 git fetch RevoluPowered
