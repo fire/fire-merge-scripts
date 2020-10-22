@@ -43,4 +43,5 @@ git merge -s ours remotes/extended-fire-godot/extended-fire -m "Commited at $MER
 git tag -a $MERGE_TAG -m "Commited at $MERGE_DATE."
 git push extended-fire-godot $MERGE_TAG
 git push extended-fire-godot extended-fire
+git checkout merge-script-master --force
 git branch -D extended-fire || true
