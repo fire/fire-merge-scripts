@@ -44,11 +44,3 @@ git tag -a $MERGE_TAG -m "Commited at $MERGE_DATE."
 git push extended-fire-godot $MERGE_TAG
 git push extended-fire-godot extended-fire
 git branch -D extended-fire || true
-
-
-echo -e "Work"
-git stash
-git checkout merge-script-master --force
-git branch -D groups || true
-python3 ./thirdparty/git-assembler -av
-git checkout groups -f
