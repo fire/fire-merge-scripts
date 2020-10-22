@@ -37,7 +37,7 @@ git checkout merge-script-master --force
 git branch -D "extended-fire" || true
 ./thirdparty/git-assembler -av
 git checkout extended-fire -f
-export MERGE_DATE=$(date --iso=sec --utc)
+export MERGE_DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
 export MERGE_TAG=$(echo extended-fire.$MERGE_DATE | tr ':' ' ' | tr -d ' \t\n\r')
 git merge -s ours remotes/extended-fire-godot/extended-fire -m "Commited at $MERGE_DATE."
 git tag -a $MERGE_TAG -m "Commited at $MERGE_DATE."
