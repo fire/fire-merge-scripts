@@ -1,3 +1,3 @@
-curl -L https://gitlab.com/wavexx/git-assembler/-/raw/master/git-assembler -o git-assembler
+curl -L https://gitlab.com/wavexx/git-assembler/-/raw/master/git-assembler -o thirdparty/git-assembler
 chmod +x git-assembler
 git config rerere.enabled true
