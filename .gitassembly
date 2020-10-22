@@ -11,6 +11,8 @@ merge extended-fire remotes/extended-fire-godot/feature/3.2/skeleton-mod
 merge extended-fire remotes/extended-fire-godot/feature/3.2/mesh-unwrap
 merge extended-fire remotes/extended-fire-godot/feature/3.2/fbx
 merge extended-fire remotes/extended-fire-godot/feature/3.2/nav
-merge extended-fire remotes/lyuma/shader_npr_lighting_3.2
+merge extended-fire remotes/SaracenOne/require_shader
 merge extended-fire remotes/lyuma/shader_struct_backport
+merge extended-fire remotes/lyuma/shader_npr_lighting_3.2
+merge extended-fire remotes/v-sekai-godot/rename_bones_blendshapes_3.2
 merge extended-fire remotes/lyuma/command_queue_fix_3.2
