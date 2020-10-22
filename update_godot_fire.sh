@@ -18,7 +18,7 @@ git remote add godotengine https://github.com/godotengine/godot
 git remote set-url --push godotengine https://example.com/
 git fetch godotengine
 git remote rm V-Sekai || true
-git remote add V-Sekai https://github.com/V-Sekai
+git remote add V-Sekai https://github.com/V-Sekai/godot
 git remote set-url --push V-Sekai https://example.com/
 git fetch V-Sekai
 git remote rm "extended-fire-godot" || true
