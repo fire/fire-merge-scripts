@@ -34,7 +34,10 @@ git remote rm RevoluPowered || true
 git remote add RevoluPowered https://github.com/RevoluPowered/godot.git
 git remote set-url --push RevoluPowered https://example.com/
 git fetch RevoluPowered
-
+git remote rm madmiraal || true
+git remote add madmiraal https://github.com/madmiraal/godot.git
+git remote set-url --push madmiraal https://example.com/
+git fetch madmiraal
 
 echo -e "Work"
 git checkout merge-script-master --force
