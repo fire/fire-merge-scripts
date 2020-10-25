@@ -40,15 +40,18 @@ git remote set-url --push madmiraal https://example.com/
 git fetch madmiraal
 
 echo -e "Work"
-git checkout merge-script-master --force
-git branch -D "extended-fire" || true
+export ORIGINAL_BRANCH=merge-script-master
+export MERGE_REMOTE=extended-fire-godot
+git checkout ORIGINAL_BRANCH --force
+git branch -D "extended-fire-master" || true
 ./thirdparty/git-assembler -av
-git checkout extended-fire -f
+export MERGE_BRANCH=extended-fire-master
+git checkout $MERGE_BRANCH -f
 export MERGE_DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
-export MERGE_TAG=$(echo extended-fire.$MERGE_DATE | tr ':' ' ' | tr -d ' \t\n\r')
-git merge -s ours remotes/extended-fire-godot/extended-fire -m "Commited at $MERGE_DATE."
+export MERGE_TAG=$(echo extended-fire-master.$MERGE_DATE | tr ':' ' ' | tr -d ' \t\n\r')
+git merge -s ours remotes/$MERGE_REMOTE/$MERGE_BRANCH -m "Commited at $MERGE_DATE."
 git tag -a $MERGE_TAG -m "Commited at $MERGE_DATE."
-git push extended-fire-godot $MERGE_TAG
-git push extended-fire-godot extended-fire
-git checkout merge-script-master --force
-git branch -D extended-fire || true
+git push $MERGE_REMOTE $MERGE_TAG
+git push $MERGE_REMOTE $MERGE_BRANCH
+git checkout $ORIGINAL_BRANCH --force
+git branch -D $MERGE_BRANCH || true
