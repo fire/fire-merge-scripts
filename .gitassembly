@@ -1,13 +1,9 @@
 stage extended-fire-master remotes/godotengine/master
-# merge extended-fire-master remotes/extended-fire-godot/feature/remove-empties
-# merge extended-fire-master remotes/extended-fire-godot/feature/move-mesh-to-root
 merge extended-fire-master remotes/extended-fire-godot/feature/audio-effect
 merge extended-fire-master remotes/extended-fire-godot/feature/bone-parent-to-child
-# merge extended-fire-master remotes/fire/sentry-io-cleanup
 merge extended-fire-master remotes/extended-fire-godot/feature/cubic-interpolation
 merge extended-fire-master remotes/extended-fire-godot/feature/ik
 merge extended-fire-master remotes/extended-fire-godot/feature/mesh-unwrap
 merge extended-fire-master remotes/extended-fire-godot/feature/object-context-menu
-#merge extended-fire-master remotes/extended-fire-godot/feature/wireframe
 merge extended-fire-master remotes/fire/default-lock-group
 merge extended-fire-master remotes/lyuma/npr_shaders
