@@ -42,7 +42,7 @@ git fetch madmiraal
 echo -e "Work"
 export ORIGINAL_BRANCH=merge-script-master
 export MERGE_REMOTE=extended-fire-godot
-git checkout ORIGINAL_BRANCH --force
+git checkout $ORIGINAL_BRANCH --force
 git branch -D "extended-fire-master" || true
 ./thirdparty/git-assembler -av
 export MERGE_BRANCH=extended-fire-master
