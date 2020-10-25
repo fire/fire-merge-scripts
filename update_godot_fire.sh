@@ -40,12 +40,12 @@ git remote set-url --push madmiraal https://example.com/
 git fetch madmiraal
 
 echo -e "Work"
-export ORIGINAL_BRANCH=merge-script-master
+export ORIGINAL_BRANCH=next
 export MERGE_REMOTE=extended-fire-godot
 export MERGE_BRANCH=extended-fire-master
 git checkout $ORIGINAL_BRANCH --force
 git branch -D $MERGE_BRANCH || true
-./thirdparty/git-assembler -av
+./thirdparty/git-assembler --assemble --verbose --recreate
 git checkout $MERGE_BRANCH -f
 export MERGE_DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
 export MERGE_TAG=$(echo extended-fire-master.$MERGE_DATE | tr ':' ' ' | tr -d ' \t\n\r')
