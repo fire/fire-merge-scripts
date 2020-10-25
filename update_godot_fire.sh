@@ -42,10 +42,10 @@ git fetch madmiraal
 echo -e "Work"
 export ORIGINAL_BRANCH=merge-script-master
 export MERGE_REMOTE=extended-fire-godot
-git checkout $ORIGINAL_BRANCH --force
-git branch -D "extended-fire-master" || true
-./thirdparty/git-assembler -av
 export MERGE_BRANCH=extended-fire-master
+git checkout $ORIGINAL_BRANCH --force
+git branch -D $MERGE_BRANCH || true
+./thirdparty/git-assembler -av
 git checkout $MERGE_BRANCH -f
 export MERGE_DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
 export MERGE_TAG=$(echo extended-fire-master.$MERGE_DATE | tr ':' ' ' | tr -d ' \t\n\r')
