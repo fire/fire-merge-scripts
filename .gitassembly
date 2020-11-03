@@ -2,7 +2,6 @@ stage extended-fire remotes/godotengine/3.2
 merge extended-fire remotes/extended-fire-godot/feature/3.2/unfold-editor
 merge extended-fire remotes/extended-fire-godot/feature/3.2/spatial-audio
 merge extended-fire remotes/extended-fire-godot/feature/3.2/point-bone-parent-child
-#merge extended-fire remotes/extended-fire-godot/feature/3.2/opensubdiv
 merge extended-fire remotes/extended-fire-godot/feature/3.2/keyframe-reduce
 merge extended-fire remotes/extended-fire-godot/feature/3.2/color-management
 merge extended-fire remotes/extended-fire-godot/feature/3.2/color-correction
@@ -17,4 +16,4 @@ merge extended-fire remotes/lyuma/shader_global_arrays_3.2
 merge extended-fire remotes/v-sekai-godot/rename_bones_blendshapes_3.2
 merge extended-fire remotes/lyuma/command_queue_fix_3.2
 merge extended-fire remotes/madmiraal/fix-34596-3.2
-merge extended-fire remotes/RevoluPowered/fbx-bugfix-skinning-unused-deformers-polyfiller
+merge extended-fire remotes/extended-fire-godot/feature/3.2/opensubdiv-next
