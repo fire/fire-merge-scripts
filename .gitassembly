@@ -17,3 +17,4 @@ merge extended-fire remotes/lyuma/shader_global_arrays_3.2
 merge extended-fire remotes/v-sekai-godot/rename_bones_blendshapes_3.2
 merge extended-fire remotes/lyuma/command_queue_fix_3.2
 merge extended-fire remotes/madmiraal/fix-34596-3.2
+merge extended-fire remotes/RevoluPowered/fbx-bugfix-skinning-unused-deformers-polyfiller
