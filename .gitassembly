@@ -10,8 +10,6 @@ merge extended-fire-master remotes/extended-fire-godot/feature/mesh-unwrap
 merge extended-fire-master remotes/extended-fire-godot/feature/object-context-menu
 # merge extended-fire-master remotes/extended-fire-godot/feature/wireframe
 merge extended-fire-master remotes/fire/default-lock-group
-merge extended-fire-master remotes/SaracenOne/require_shader
-merge extended-fire-master remotes/lyuma/shader_struct_backport
 merge extended-fire-master remotes/lyuma/simple_shader_additions
-merge extended-fire-master remotes/lyuma/shader_global_arrays
+merge extended-fire-master remotes/lyuma/shader_globals_master
 merge extended-fire-master remotes/fire/scene_export_native_gltf
