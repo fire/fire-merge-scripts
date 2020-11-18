@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+#dos2unix script
 set -e
 
 git stash
