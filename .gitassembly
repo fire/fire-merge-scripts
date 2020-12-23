@@ -3,7 +3,7 @@ stage extended-fire-master remotes/godotengine/master
 # merge extended-fire-master remotes/extended-fire-godot/feature/move-mesh-to-root
 merge extended-fire-master remotes/extended-fire-godot/feature/bone-parent-to-child
 # merge extended-fire-master remotes/fire/sentry-io-cleanup
-merge extended-fire-master remotes/extended-fire-godot/feature/cubic-interpolation
+merge extended-fire-master remotes/fire/cubic-interpolation
 merge extended-fire-master remotes/extended-fire-godot/feature/ik
 merge extended-fire-master remotes/extended-fire-godot/feature/mesh-unwrap
 # merge extended-fire-master remotes/extended-fire-godot/feature/wireframe
