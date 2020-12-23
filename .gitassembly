@@ -11,6 +11,5 @@ merge extended-fire-master remotes/extended-fire-godot/feature/mesh-unwrap
 # merge extended-fire-master remotes/lyuma/simple_shader_additions
 # removed temporaily as of 2020-12-22
 # merge extended-fire-master remotes/lyuma/shader_globals_master
-merge extended-fire-master remotes/fire/scene_export_native_gltf
 merge extended-fire-master remotes/lyuma/audio_effect_stream
 merge extended-fire-master remotes/lyuma/godot_speech_master 
