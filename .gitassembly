@@ -7,7 +7,6 @@ merge extended-fire-master remotes/extended-fire-godot/feature/shader_improvemen
 merge extended-fire-master remotes/lyuma/audio_effect_stream
 merge extended-fire-master remotes/lyuma/godot_speech_master 
 merge extended-fire-master remotes/fire/mesh-opt-collapse
-merge extended-fire-master remotes/fire/gltf-eight-weights
 # merge extended-fire-master remotes/extended-fire-godot/feature/wireframe
 # merge extended-fire-master remotes/fire/sentry-io-cleanup
 # merge extended-fire-master remotes/extended-fire-godot/feature/remove-empties
