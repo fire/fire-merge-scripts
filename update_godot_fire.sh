@@ -52,9 +52,8 @@ git branch -D $MERGE_BRANCH || true
 git checkout $MERGE_BRANCH -f
 export MERGE_DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
 export MERGE_TAG=$(echo extended-fire-master.$MERGE_DATE | tr ':' ' ' | tr -d ' \t\n\r')
-git merge -s ours remotes/$MERGE_REMOTE/$MERGE_BRANCH -m "Commited at $MERGE_DATE."
 git tag -a $MERGE_TAG -m "Commited at $MERGE_DATE."
 git push $MERGE_REMOTE $MERGE_TAG
-git push $MERGE_REMOTE $MERGE_BRANCH
+git push $MERGE_REMOTE $MERGE_BRANCH -f
 git checkout $ORIGINAL_BRANCH --force
 git branch -D $MERGE_BRANCH || true
