@@ -37,11 +37,11 @@ git fetch RevoluPowered
 git remote rm madmiraal || true
 git remote add madmiraal https://github.com/madmiraal/godot.git
 git remote set-url --push madmiraal https://example.com/
-git fetch GodotECS
+git fetch madmiraal
 git remote rm GodotECS  || true
 git remote add GodotECS  https://github.com/GodotECS/godot.git
 git remote set-url --push GodotECS https://example.com/
-
+git fetch GodotECS
 echo -e "Work"
 export ORIGINAL_BRANCH=next
 export MERGE_REMOTE=extended-fire-godot
