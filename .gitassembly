@@ -3,13 +3,12 @@ merge extended-fire-master remotes/extended-fire-godot/feature/bone-parent-to-ch
 merge extended-fire-master remotes/fire/cubic-interpolation
 merge extended-fire-master remotes/extended-fire-godot/feature/ik
 merge extended-fire-master remotes/extended-fire-godot/feature/mesh-unwrap
-merge extended-fire-master remotes/extended-fire-godot/feature/shader_improvements_meta
 merge extended-fire-master remotes/lyuma/audio_effect_stream
 merge extended-fire-master remotes/lyuma/godot_speech_master
 merge extended-fire-master remotes/extended-fire-godot/feature/spatial-audio
 merge extended-fire-master remotes/fire/meshopt-scale
 merge extended-fire-master remotes/GodotECS/customizable_iterator
-merge extended-fire-master remotes/extended-fire-godot/features/shader-improvements-meta
+merge extended-fire-master remotes/fextended-fire-godotfeatures/shader-improvements-meta
 # merge extended-fire-master remotes/extended-fire-godot/feature/wireframe
 # merge extended-fire-master remotes/fire/sentry-io-cleanup
 # merge extended-fire-master remotes/extended-fire-godot/feature/remove-empties
