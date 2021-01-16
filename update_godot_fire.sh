@@ -40,8 +40,6 @@ git remote set-url --push madmiraal https://example.com/
 git fetch GodotECS
 git remote rm GodotECS  || true
 git remote add GodotECS  https://github.com/GodotECS/godot.git
-git remote set-url --push GodotECS  https://example.com/
-git fetch GodotECS 
 
 echo -e "Work"
 export ORIGINAL_BRANCH=next
