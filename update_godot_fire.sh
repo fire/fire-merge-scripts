@@ -42,6 +42,11 @@ git remote rm GodotECS  || true
 git remote add GodotECS  https://github.com/GodotECS/godot.git
 git remote set-url --push GodotECS https://example.com/
 git fetch GodotECS
+git remote rm reduz  || true
+git remote add reduz  https://github.com/reduz/godot.git
+git remote set-url --push reduz https://example.com/
+git fetch reduz
+
 echo -e "Work"
 export ORIGINAL_BRANCH=next
 export MERGE_REMOTE=extended-fire-godot
