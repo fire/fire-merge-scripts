@@ -11,8 +11,9 @@ merge extended-fire-master remotes/GodotECS/customizable_iterator
 merge extended-fire-master remotes/reduz/optimize-shader-vgpr1
 #merge extended-fire-master remotes/extended-fire-godot/features/simple-shader-additions
 merge extended-fire-master remotes/extended-fire-godot/features/basic-import-shader
-merge extended-fire-master remotes/extended-fire-godot/features/non-constant-global-variable 
+merge extended-fire-master remotes/extended-fire-godot/features/non-constant-global-variable
 merge extended-fire-master remotes/extended-fire-godot/features/divide-by-pi
+merge extended-fire-master remotes/extended-fire-godot/features/process-geometry-func
 # merge extended-fire-master remotes/extended-fire-godot/feature/wireframe
 # merge extended-fire-master remotes/fire/sentry-io-cleanup
 # merge extended-fire-master remotes/extended-fire-godot/feature/remove-empties
