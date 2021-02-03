@@ -14,7 +14,7 @@ merge extended-fire-master remotes/extended-fire-godot/features/basic-import-sha
 merge extended-fire-master remotes/extended-fire-godot/features/non-constant-global-variable
 merge extended-fire-master remotes/extended-fire-godot/features/divide-by-pi
 merge extended-fire-master remotes/extended-fire-godot/features/process-geometry-func
-merge extended-fire-master remotes/TokageItLab/pose-edit-mode
+# merge extended-fire-master remotes/TokageItLab/pose-edit-mode
 # merge extended-fire-master remotes/fire/bc7e
 # merge extended-fire-master remotes/extended-fire-godot/feature/wireframe
 # merge extended-fire-master remotes/fire/sentry-io-cleanup
