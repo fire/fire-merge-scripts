@@ -21,6 +21,12 @@ git remote rm v-sekai-godot || true
 git remote add v-sekai-godot https://github.com/V-Sekai/godot
 git remote set-url --push v-sekai-godot https://example.com/
 git fetch v-sekai-godot
+git remote rm TokageItLab || true
+git remote add TokageItLab https://github.com/TokageItLab/godot.git
+git remote set-url --push TokageItLab https://example.com/
+git fetch TokageItLab
+
+
 git remote rm "extended-fire-godot" || true
 git remote add "extended-fire-godot" git@github.com:godot-extended-libraries/godot-fire.git
 # Need
