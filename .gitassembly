@@ -4,7 +4,7 @@ merge extended-fire-master remotes/fire/cubic-interpolation
 # merge extended-fire-master remotes/extended-fire-godot/feature/spatial-audio
 merge extended-fire-master remotes/GodotECS/customizable_iterator
 merge extended-fire-master remotes/extended-fire-godot/features/process-geometry-func
-# merge extended-fire-master remotes/extended-fire-godot/features/ik-gizmos
+merge extended-fire-master remotes/extended-fire-godot/features/ik-gizmos
 # merge extended-fire-master remotes/extended-fire-godot/features/simple-shader-additions
 # merge extended-fire-master remotes/extended-fire-godot/features/basic-import-shader
 # merge extended-fire-master remotes/extended-fire-godot/features/non-constant-global-variable
