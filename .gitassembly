@@ -19,4 +19,3 @@ merge extended-fire-master remotes/extended-fire-godot/features/ik-gizmos
 # merge extended-fire-master remotes/extended-fire-godot/feature/remove-empties
 # merge extended-fire-master remotes/extended-fire-godot/feature/move-mesh-to-root
 merge extended-fire-master remotes/RevoluPowered/fix-importer-bug
-merge extended-fire-master remotes/fire/gltf-names
