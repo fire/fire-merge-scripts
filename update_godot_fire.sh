@@ -25,6 +25,11 @@ git remote rm TokageItLab || true
 git remote add TokageItLab https://github.com/TokageItLab/godot.git
 git remote set-url --push TokageItLab https://example.com/
 git fetch TokageItLab
+git remote rm bruvzg || true
+git remote add bruvzg https://github.com/bruvzg/godot.git
+git remote set-url --push bruvzg https://example.com/
+git fetch bruvzg
+
 
 
 git remote rm "extended-fire-godot" || true
@@ -52,10 +57,6 @@ git remote rm reduz  || true
 git remote add reduz  https://github.com/reduz/godot.git
 git remote set-url --push reduz https://example.com/
 git fetch reduz
-git remote rm bruvzg || true
-git remote add https://github.com/bruvzg/godot.git
-git remote set-url --push bruvzg https://example.com/
-git fetch bruvzg
 
 echo -e "Work"
 export ORIGINAL_BRANCH=next
