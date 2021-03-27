@@ -52,6 +52,10 @@ git remote rm reduz  || true
 git remote add reduz  https://github.com/reduz/godot.git
 git remote set-url --push reduz https://example.com/
 git fetch reduz
+git remote rm bruvzg || true
+git remote add https://github.com/bruvzg/godot.git
+git remote set-url --push bruvzg https://example.com/
+git fetch bruvzg
 
 echo -e "Work"
 export ORIGINAL_BRANCH=next
