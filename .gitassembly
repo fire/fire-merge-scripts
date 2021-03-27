@@ -22,3 +22,4 @@ merge extended-fire-master remotes/fire/etcpak
 merge extended-fire-master remotes/fire/importer-timings
 merge extended-fire-master remotes/reduz/optimize-channel-detection
 merge extended-fire-master remotes/bruvzg/msdf_fonts
+merge extended-fire-master remotes/TokageItLab/implement-skeleton-editor-gizmo
