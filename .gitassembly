@@ -20,3 +20,8 @@ merge extended-fire-master remotes/fire/schedule-audio
 # merge extended-fire-master remotes/fire/sentry-io-cleanup
 # merge extended-fire-master remotes/extended-fire-godot/feature/remove-empties
 # merge extended-fire-master remotes/extended-fire-godot/feature/move-mesh-to-root
+merge extended-fire-master remotes/fire/etcpak
+merge extended-fire-master remotes/fire/importer-timings
+merge extended-fire-master remotes/reduz/optimize-channel-detection
+merge extended-fire-master remotes/bruvzg/msdf_fonts
+merge extended-fire-master remotes/TokageItLab/implement-skeleton-editor-gizmo

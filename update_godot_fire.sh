@@ -25,6 +25,11 @@ git remote rm TokageItLab || true
 git remote add TokageItLab https://github.com/TokageItLab/godot.git
 git remote set-url --push TokageItLab https://example.com/
 git fetch TokageItLab
+git remote rm bruvzg || true
+git remote add bruvzg https://github.com/bruvzg/godot.git
+git remote set-url --push bruvzg https://example.com/
+git fetch bruvzg
+
 
 
 git remote rm "extended-fire-godot" || true
