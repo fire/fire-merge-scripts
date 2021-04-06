@@ -9,6 +9,7 @@ merge extended-fire-master remotes/fire/etcpak
 merge extended-fire-master remotes/fire/importer-timings
 merge extended-fire-master remotes/bruvzg/msdf_fonts
 merge extended-fire-master remotes/fire/gltf-alpha
+merge extended-fire-master remotes/extended-fire-godot/extended-fire-master-runtime-gltf
 
 # merge extended-fire-master remotes/extended-fire-godot/features/simple-shader-additions
 # merge extended-fire-master remotes/extended-fire-godot/features/basic-import-shader
