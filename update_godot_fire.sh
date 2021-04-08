@@ -57,6 +57,10 @@ git remote rm reduz  || true
 git remote add reduz  https://github.com/reduz/godot.git
 git remote set-url --push reduz https://example.com/
 git fetch reduz
+git remote rm gongpha  || true
+git remote add gongpha  https://github.com/gongpha/godot.git
+git remote set-url --push gongpha https://example.com/
+git fetch gongpha
 
 echo -e "Work"
 export ORIGINAL_BRANCH=next
