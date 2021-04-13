@@ -10,6 +10,8 @@ merge extended-fire-master remotes/fire/importer-timings
 merge extended-fire-master remotes/bruvzg/msdf_fonts
 merge extended-fire-master remotes/fire/gltf-alpha
 merge extended-fire-master remotes/fire/meshoptimizer-update
+merge extended-fire-master remotes/fire/gltf-export
+merge extended-fire-master remotes/fire/pthread-mingw
 # merge extended-fire-master remotes/extended-fire-godot/features/simple-shader-additions
 # merge extended-fire-master remotes/extended-fire-godot/features/basic-import-shader
 # merge extended-fire-master remotes/extended-fire-godot/features/non-constant-global-variable
