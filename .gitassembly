@@ -5,7 +5,6 @@ merge extended-fire-master remotes/fire/cubic-interpolation
 merge extended-fire-master remotes/GodotECS/customizable_iterator
 merge extended-fire-master remotes/extended-fire-godot/features/ik-gizmos
 merge extended-fire-master remotes/fire/schedule-audio
-merge extended-fire-master remotes/fire/etcpak
 merge extended-fire-master remotes/fire/importer-timings
 merge extended-fire-master remotes/bruvzg/msdf_fonts
 merge extended-fire-master remotes/fire/gltf-alpha
