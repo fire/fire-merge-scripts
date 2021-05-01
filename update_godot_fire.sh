@@ -61,6 +61,10 @@ git remote rm gongpha  || true
 git remote add gongpha  https://github.com/gongpha/godot.git
 git remote set-url --push gongpha https://example.com/
 git fetch gongpha
+git remote rm sboron  || true
+git remote add sboron https://github.com/sboron/godot-bugfixing.git
+git remote set-url --push sboron https://example.com/
+git fetch sboron
 
 echo -e "Work"
 export ORIGINAL_BRANCH=next

@@ -7,6 +7,8 @@ merge extended-fire-master remotes/fire/schedule-audio
 merge extended-fire-master remotes/bruvzg/msdf_fonts
 merge extended-fire-master remotes/fire/gltf-alpha
 merge extended-fire-master remotes/fire/meshoptimizer-update
+merge extended-fire-master remotes/sboron/fix-tangent-issue
+merge extended-fire-master remotes/sboron/smoothnormals
 # merge extended-fire-master remotes/fire/importer-timings
 # merge extended-fire-master remotes/fire/gltf-export-fixes
 # merge extended-fire-master remotes/fire/gltf-export-02
