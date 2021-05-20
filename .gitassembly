@@ -8,7 +8,6 @@ merge extended-fire-master remotes/fire/meshoptimizer-update
 merge extended-fire-master remotes/sboron/fix-tangent-issue
 merge extended-fire-master remotes/sboron/smoothnormals
 merge extended-fire-master remotes/fire/gltf-bone-skinning-normalization
-merge extended-fire-master remotes/extended-fire-godot/features/ik-gizmos
 merge extended-fire-master remotes/lyuma/fix_gdscript_export
 merge extended-fire-master remotes/lyuma/expose_import
 merge extended-fire-master remotes/extended-fire-godot/features/skeleton-modification-stack
