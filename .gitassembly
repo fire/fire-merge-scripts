@@ -11,7 +11,7 @@ merge extended-fire-master remotes/fire/gltf-bone-skinning-normalization
 merge extended-fire-master remotes/extended-fire-godot/features/ik-gizmos
 merge extended-fire-master remotes/lyuma/fix_gdscript_export
 merge extended-fire-master remotes/lyuma/expose_import
-merge modification-stack-ik remotes/extended-fire-godot/features/modification-stack
+merge modification-stack-ik remotes/extended-fire-godot/features/skeleton-modification-stack
 merge modification-stack-ik remotes/extended-fire-godot/features/skeleton-gizmos
 merge extended-fire-master modification-stack-ik 
 
